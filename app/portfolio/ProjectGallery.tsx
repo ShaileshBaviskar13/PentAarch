@@ -14,8 +14,8 @@ export default function ProjectGallery() {
       name: 'Modern Living Room Design',
       category: 'Interior',
       images: [
-        'https://PentAarch.ai/api/search-image?query=Modern%20living%20room%20interior%20design%20with%20contemporary%20furniture%2C%20elegant%20sofa%20set%2C%20stylish%20coffee%20table%2C%20and%20sophisticated%20decor%20in%20luxury%20home%20setting&width=400&height=300&seq=project1&orientation=landscape',
-        'https://PentAarch.ai/api/search-image?query=Modern%20living%20room%20interior%20design%20alternative%20angle%20showing%20dining%20area%2C%20contemporary%20furniture%20arrangement%2C%20and%20elegant%20home%20decor&width=400&height=300&seq=project1b&orientation=landscape'
+        'https://i.pinimg.com/1200x/0e/d8/f9/0ed8f902b06edf50ceab654d22c555e0.jpg',
+        'https://i.pinimg.com/1200x/2f/59/06/2f5906be2620ca5d21aca8dfb3343dae.jpg'
       ],
       description: 'Complete interior transformation of a 3BHK apartment with modern furniture and elegant decor'
     },
@@ -24,8 +24,8 @@ export default function ProjectGallery() {
       name: 'Luxury Kitchen Design',
       category: 'Interior',
       images: [
-        'https://PentAarch.ai/api/search-image?query=Luxury%20modular%20kitchen%20design%20with%20premium%20cabinets%2C%20granite%20countertops%2C%20modern%20appliances%2C%20and%20sophisticated%20kitchen%20interior&width=400&height=300&seq=project2&orientation=landscape',
-        'https://PentAarch.ai/api/search-image?query=Luxury%20modular%20kitchen%20design%20showing%20island%20counter%2C%20premium%20finishes%2C%20and%20elegant%20kitchen%20layout&width=400&height=300&seq=project2b&orientation=landscape'
+        'https://i.pinimg.com/1200x/8c/25/25/8c25256a69be09fb1fea374e655e372f.jpg',
+        'https://i.pinimg.com/1200x/cb/8b/ab/cb8babe838137d6c562f6d87eef37567.jpg'
       ],
       description: 'Premium modular kitchen with smart storage solutions and high-end finishes'
     },
@@ -34,8 +34,8 @@ export default function ProjectGallery() {
       name: 'Metallic Epoxy Office Floor',
       category: 'Flooring',
       images: [
-        'https://PentAarch.ai/api/search-image?query=Stunning%20metallic%20epoxy%20flooring%20in%20modern%20office%20space%20with%20seamless%20metallic%20finish%2C%20contemporary%20design%2C%20and%20professional%20workspace&width=400&height=300&seq=project3&orientation=landscape',
-        'https://PentAarch.ai/api/search-image?query=Metallic%20epoxy%20flooring%20close-up%20showing%20beautiful%20metallic%20patterns%2C%20smooth%20surface%2C%20and%20professional%20installation%20quality&width=400&height=300&seq=project3b&orientation=landscape'
+        'https://i.pinimg.com/736x/23/ef/89/23ef896e325cc76dc5e26aea72ced5f0.jpg',
+        'https://i.pinimg.com/1200x/df/4d/67/df4d6756598a9a0c6235f2461c76e8df.jpg'
       ],
       description: 'Seamless metallic epoxy flooring for a corporate office with stunning visual effects'
     },
@@ -44,8 +44,8 @@ export default function ProjectGallery() {
       name: 'Stucco Marble Wall Texture',
       category: 'Wall Textures',
       images: [
-        'https://PentAarch.ai/api/search-image?query=Beautiful%20stucco%20marble%20wall%20texture%20with%20elegant%20marble-like%20finish%2C%20sophisticated%20texture%20pattern%2C%20and%20luxury%20interior%20wall%20treatment&width=400&height=300&seq=project4&orientation=landscape',
-        'https://PentAarch.ai/api/search-image?query=Stucco%20marble%20wall%20texture%20detail%20showing%20craftsmanship%2C%20texture%20depth%2C%20and%20professional%20wall%20finishing%20technique&width=400&height=300&seq=project4b&orientation=landscape'
+        'https://i.pinimg.com/1200x/98/81/dc/9881dc4a0cd1f95713a55a67372e3cbd.jpg',
+        'https://i.pinimg.com/736x/32/95/08/329508d57ade9bf0a19abb61c25d004b.jpg'
       ],
       description: 'Elegant stucco marble texture application in a luxury hotel lobby'
     },
@@ -54,8 +54,8 @@ export default function ProjectGallery() {
       name: 'Residential Construction',
       category: 'Civil',
       images: [
-        'https://PentAarch.ai/api/search-image?query=Modern%20residential%20house%20construction%20with%20contemporary%20architecture%2C%20quality%20construction%20work%2C%20and%20professional%20building%20development&width=400&height=300&seq=project5&orientation=landscape',
-        'https://PentAarch.ai/api/search-image?query=Residential%20construction%20showing%20interior%20structure%2C%20quality%20building%20materials%2C%20and%20skilled%20construction%20workmanship&width=400&height=300&seq=project5b&orientation=landscape'
+        'https://i.pinimg.com/736x/11/ee/db/11eedbcad239c00c7da87839d9c43587.jpg',
+        'https://i.pinimg.com/1200x/73/69/22/7369227c976d3ddddcf6ca9fb11f6a47.jpg'
       ],
       description: 'Complete construction of a modern 4BHK villa with contemporary design'
     },
@@ -64,8 +64,8 @@ export default function ProjectGallery() {
       name: 'Restaurant Interior Design',
       category: 'Interior',
       images: [
-        'https://PentAarch.ai/api/search-image?query=Elegant%20restaurant%20interior%20design%20with%20modern%20dining%20furniture%2C%20sophisticated%20lighting%2C%20and%20upscale%20dining%20atmosphere&width=400&height=300&seq=project6&orientation=landscape',
-        'https://PentAarch.ai/api/search-image?query=Restaurant%20interior%20design%20showing%20bar%20area%2C%20contemporary%20seating%2C%20and%20professional%20restaurant%20ambiance&width=400&height=300&seq=project6b&orientation=landscape'
+        'https://i.pinimg.com/1200x/97/d8/33/97d83368da20e0b09038e62aa0ac095c.jpg',
+        'https://i.pinimg.com/736x/9a/5d/b6/9a5db6665e040adf7ea908159bf95a31.jpg'
       ],
       description: 'Complete interior design for a fine dining restaurant with elegant ambiance'
     },
@@ -74,8 +74,8 @@ export default function ProjectGallery() {
       name: '3D Epoxy Flooring',
       category: 'Flooring',
       images: [
-        'https://PentAarch.ai/api/search-image?query=Amazing%203D%20epoxy%20flooring%20with%20optical%20illusion%20patterns%2C%20stunning%20visual%20effects%2C%20and%20artistic%20floor%20design%20in%20modern%20space&width=400&height=300&seq=project7&orientation=landscape',
-        'https://PentAarch.ai/api/search-image?query=3D%20epoxy%20flooring%20showing%20depth%20effect%2C%20artistic%20patterns%2C%20and%20professional%20installation%20in%20contemporary%20interior&width=400&height=300&seq=project7b&orientation=landscape'
+        'https://i.pinimg.com/1200x/40/3e/d9/403ed97d3385acc38a8204d47543ada8.jpg',
+        'https://i.pinimg.com/1200x/4a/e8/9a/4ae89ad476348840e7a29e0803b8c77a.jpg'
       ],
       description: 'Stunning 3D epoxy flooring with optical illusion effects for a showroom'
     },
@@ -84,8 +84,8 @@ export default function ProjectGallery() {
       name: 'Velvet Paint Finish',
       category: 'Wall Textures',
       images: [
-        'https://PentAarch.ai/api/search-image?query=Luxurious%20velvet%20paint%20finish%20on%20bedroom%20walls%20with%20soft%20texture%2C%20elegant%20appearance%2C%20and%20sophisticated%20wall%20treatment&width=400&height=300&seq=project8&orientation=landscape',
-        'https://PentAarch.ai/api/search-image?query=Velvet%20paint%20finish%20detail%20showing%20smooth%20texture%2C%20rich%20color%20depth%2C%20and%20professional%20paint%20application%20technique&width=400&height=300&seq=project8b&orientation=landscape'
+        'https://i.pinimg.com/1200x/1b/e9/5d/1be95d8b01c3140192bf038fc52cd25b.jpg',
+        'https://i.pinimg.com/1200x/53/99/70/539970f517f29bb8ec3d11b7765f4a8b.jpg'
       ],
       description: 'Premium velvet paint finish for a luxury bedroom suite'
     },
@@ -94,8 +94,8 @@ export default function ProjectGallery() {
       name: 'Commercial Building Construction',
       category: 'Civil',
       images: [
-        'https://PentAarch.ai/api/search-image?query=Modern%20commercial%20building%20construction%20with%20contemporary%20architecture%2C%20professional%20construction%20quality%2C%20and%20skilled%20building%20development&width=400&height=300&seq=project9&orientation=landscape',
-        'https://PentAarch.ai/api/search-image?query=Commercial%20building%20construction%20showing%20structural%20work%2C%20modern%20building%20techniques%2C%20and%20quality%20construction%20materials&width=400&height=300&seq=project9b&orientation=landscape'
+        'https://i.pinimg.com/736x/12/21/3e/12213eaf3dfd43e1c7b4012866cba46d.jpg',
+        'https://i.pinimg.com/1200x/23/5c/4a/235c4ac10448ed5f0a200bfe22738cd2.jpg'
       ],
       description: 'Construction of a modern commercial complex with advanced building techniques'
     }

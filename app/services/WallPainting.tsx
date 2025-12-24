@@ -25,27 +25,27 @@ export default function WallPainting() {
     {
       title: 'PU Deco Finishes',
       description: 'Premium polyurethane-based decorative finishes for durability and elegance',
-      image: 'https://PentAarch.ai/api/search-image?query=Luxurious%20PU%20deco%20wall%20finish%20with%20smooth%20polyurethane%20coating%2C%20elegant%20texture%2C%20and%20sophisticated%20appearance%20in%20modern%20interior%20setting%20with%20premium%20quality%20finish&width=300&height=200&seq=pu1&orientation=landscape'
+      image: 'https://i.pinimg.com/736x/e7/f1/b0/e7f1b0d38c43ac6c50fadbc6a56fcd5c.jpg'
     },
     {
       title: 'Finix Royale Velvet',
       description: 'Soft velvet texture paint that adds sophistication and warmth to any space',
-      image: 'https://PentAarch.ai/api/search-image?query=Elegant%20velvet%20texture%20wall%20paint%20with%20soft%20luxurious%20finish%2C%20rich%20color%20depth%2C%20and%20sophisticated%20velvet%20appearance%20in%20upscale%20interior%20design&width=300&height=200&seq=velvet1&orientation=landscape'
+      image: 'https://i.pinimg.com/1200x/28/7a/61/287a6120474aebdba28813a266d779c1.jpg'
     },
     {
       title: 'Stucco Marble',
       description: 'Authentic marble-like textures that provide the look of natural stone',
-      image: 'https://PentAarch.ai/api/search-image?query=Beautiful%20stucco%20marble%20texture%20wall%20with%20natural%20stone%20appearance%2C%20elegant%20marble-like%20finish%2C%20and%20sophisticated%20texture%20in%20luxury%20interior%20space&width=300&height=200&seq=stucco1&orientation=landscape'
+      image: 'https://i.pinimg.com/1200x/7a/b1/cf/7ab1cf798c515454c3ffe9bf06faa4b9.jpg'
     },
     {
       title: 'Shine Coat Lustre',
       description: 'High-gloss lustrous finish that reflects light beautifully',
-      image: 'https://PentAarch.ai/api/search-image?query=Glossy%20shine%20coat%20wall%20finish%20with%20high-gloss%20lustre%2C%20light-reflecting%20surface%2C%20and%20elegant%20shiny%20appearance%20in%20contemporary%20interior%20design&width=300&height=200&seq=shine1&orientation=landscape'
+      image: 'https://i.pinimg.com/1200x/c8/d5/45/c8d545c12f9ae0a81959963b7d1e51ac.jpg'
     },
     {
       title: 'OBD & Emulsions',
       description: 'Premium OBD paints and emulsions from the Finix range for lasting beauty',
-      image: 'https://PentAarch.ai/api/search-image?query=Premium%20wall%20paint%20finish%20with%20smooth%20emulsion%20coating%2C%20vibrant%20color%2C%20and%20professional%20paint%20application%20in%20modern%20home%20interior%20setting&width=300&height=200&seq=emulsion1&orientation=landscape'
+      image: 'https://i.pinimg.com/1200x/4c/e7/eb/4ce7ebf61418910017d0f0c26fd94d73.jpg'
     }
   ];
 
@@ -59,7 +59,7 @@ export default function WallPainting() {
             <div 
               className="h-96 bg-cover bg-center rounded-lg service-card scroll-reveal"
               style={{
-                backgroundImage: `url('https://PentAarch.ai/api/search-image?query=Professional%20wall%20painting%20artist%20applying%20decorative%20finish%20with%20specialized%20tools%2C%20artistic%20wall%20texture%20creation%2C%20and%20skilled%20craftsman%20working%20on%20premium%20wall%20treatment&width=600&height=400&seq=painting1&orientation=landscape')`
+                backgroundImage: `url('https://i.pinimg.com/1200x/52/f3/38/52f338f7f3245f3dbb6b2e840b4323d1.jpg')`
               }}
             ></div>
             <div className="service-card scroll-reveal">

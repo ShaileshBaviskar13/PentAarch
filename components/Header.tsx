@@ -2,11 +2,15 @@
 
 import Link from 'next/link';
 import { useState, useEffect, useRef } from 'react';
+import { useRouter } from 'next/navigation';
+import { apiUtils, authAPI } from '../lib/api';
 
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [user, setUser] = useState(null as any);
+  const router = useRouter();
   // const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -16,6 +20,23 @@ export default function Header() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  useEffect(() => {
+    // If authenticated, fetch profile to show name
+    if (apiUtils.isAuthenticated()) {
+      authAPI.getProfile().then(res => {
+        if (res && res.data) setUser(res.data.user || res.data);
+      }).catch(() => {
+        // ignore
+      });
+    }
+  }, []);
+
+  const handleLogout = async () => {
+    await authAPI.logout();
+    setUser(null);
+    router.push('/');
+  };
 
 
 
@@ -37,10 +58,19 @@ export default function Header() {
             
             {/* Authentication Links */}
             <div className="flex items-center space-x-3 ml-4 pl-4 border-l border-gray-200">
-              <Link href="/login" className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer nav-glow">Login</Link>
-              <Link href="/signup" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors cursor-pointer animated-btn">
-                Sign Up
-              </Link>
+              {!user ? (
+                <>
+                  <Link href="/login" className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer nav-glow">Login</Link>
+                  <Link href="/signup" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors cursor-pointer animated-btn">
+                    Sign Up
+                  </Link>
+                </>
+              ) : (
+                <div className="flex items-center space-x-3">
+                  <Link href="/profile" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">{user.name || user.fullName || user.email}</Link>
+                  <button onClick={handleLogout} className="text-sm text-red-600 hover:text-red-700 px-3 py-2 rounded-md border border-red-100">Logout</button>
+                </div>
+              )}
             </div>
           </nav>
 

@@ -7,22 +7,22 @@ export default function CivilContracting() {
     {
       title: 'New Construction',
       description: 'Complete construction services for residential and commercial buildings',
-      image: 'https://PentAarch.ai/api/search-image?query=New%20construction%20project%20with%20modern%20building%20construction%2C%20steel%20framework%2C%20concrete%20work%2C%20and%20skilled%20construction%20workers%20in%20active%20building%20site&width=300&height=200&seq=construction1&orientation=landscape'
+      image: 'https://i.pinimg.com/736x/22/44/cb/2244cb7777a9393d6bc1f9a739aef27f.jpg'
     },
     {
       title: 'Renovations',
       description: 'Transform existing spaces with modern renovation techniques',
-      image: 'https://PentAarch.ai/api/search-image?query=Home%20renovation%20project%20showing%20before%20and%20after%20transformation%2C%20modern%20renovation%20work%2C%20updated%20interiors%2C%20and%20construction%20improvement%20activities&width=300&height=200&seq=renovation1&orientation=landscape'
+      image: 'https://i.pinimg.com/1200x/6e/d3/f6/6ed3f649c70e77b071b0b0d9cb7dd763.jpg'
     },
     {
       title: 'Structural Modifications',
       description: 'Safe and efficient structural changes to optimize space utilization',
-      image: 'https://PentAarch.ai/api/search-image?query=Structural%20modification%20work%20with%20engineering%20precision%2C%20beam%20installation%2C%20wall%20modifications%2C%20and%20professional%20structural%20engineering%20in%20construction%20project&width=300&height=200&seq=structural1&orientation=landscape'
+      image: 'https://i.pinimg.com/736x/13/dd/4b/13dd4bc6b45a303a6a5d47a70dd92cf8.jpg'
     },
     {
       title: 'Turnkey Projects',
       description: 'End-to-end construction solutions from design to completion',
-      image: 'https://PentAarch.ai/api/search-image?query=Turnkey%20construction%20project%20showing%20complete%20building%20development%20from%20foundation%20to%20finish%2C%20modern%20architecture%2C%20and%20comprehensive%20construction%20services&width=300&height=200&seq=turnkey2&orientation=landscape'
+      image: 'https://i.pinimg.com/736x/95/e7/f9/95e7f939e62dfa8cb48ed536dc87fdc9.jpg'
     }
   ];
 
@@ -36,7 +36,7 @@ export default function CivilContracting() {
             <div 
               className="h-96 bg-cover bg-center rounded-lg"
               style={{
-                backgroundImage: `url('https://PentAarch.ai/api/search-image?query=Professional%20construction%20team%20working%20on%20civil%20engineering%20project%20with%20heavy%20machinery%2C%20construction%20equipment%2C%20and%20skilled%20workers%20in%20modern%20building%20construction&width=600&height=400&seq=civil1&orientation=landscape')`
+                backgroundImage: `url('https://i.pinimg.com/736x/47/75/93/477593fdb78a813aafccb3d1cedaa0df.jpg')`
               }}
             ></div>
             <div>

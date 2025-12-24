@@ -5,7 +5,7 @@ export default function AboutHero() {
     <section 
       className="relative h-96 flex items-center justify-center bg-cover bg-center"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://PentAarch.ai/api/search-image?query=Professional%20architectural%20team%20working%20on%20blueprints%20and%20construction%20plans%20in%20modern%20office%20environment%20with%20natural%20lighting%2C%20teamwork%20collaboration%2C%20and%20architectural%20design%20tools%20showcasing%20company%20culture%20and%20expertise&width=1200&height=600&seq=about1&orientation=landscape')`
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/1200x/77/24/28/77242899b0a81751b8c7b8b0d4fbc023.jpg')`
       }}
     >
       <div className="container mx-auto px-4 text-center text-white">

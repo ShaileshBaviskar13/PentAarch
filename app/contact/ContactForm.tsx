@@ -1,7 +1,9 @@
-'use client';
+ 'use client';
 
-import { useState } from 'react';
-import { contactAPI } from '../../lib/api';
+import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
+import Link from 'next/link';
+import { contactAPI, apiUtils } from '../../lib/api';
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -13,6 +15,15 @@ export default function ContactForm() {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState('');
+  const router = useRouter();
+  const isAuthenticated = apiUtils.isAuthenticated();
+
+  // If user is not authenticated, redirect immediately to login
+  useEffect(() => {
+    if (!isAuthenticated) {
+      router.push('/login');
+    }
+  }, [isAuthenticated, router]);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({
@@ -25,7 +36,16 @@ export default function ContactForm() {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitStatus('');
-
+    // Require authentication before allowing contact submission
+    if (!apiUtils.isAuthenticated()) {
+      setIsSubmitting(false);
+      setSubmitStatus('Please login to submit the contact form. Redirecting to login...');
+      // redirect to login after short delay
+      setTimeout(() => {
+        router.push('/login');
+      }, 800);
+      return;
+    }
     try {
       // Prepare contact data
       const contactData = {
@@ -51,7 +71,8 @@ export default function ContactForm() {
         });
       }
     } catch (error) {
-      setSubmitStatus(error.message || 'Sorry, there was an error sending your message. Please try again.');
+      const message = (error as any)?.message || 'Sorry, there was an error sending your message. Please try again.';
+      setSubmitStatus(message);
     } finally {
       setIsSubmitting(false);
     }
@@ -64,6 +85,11 @@ export default function ContactForm() {
           <h2 className="text-3xl font-bold text-center mb-8">Get Free Consultation</h2>
           
           <form id="contact-form" onSubmit={handleSubmit} className="space-y-6">
+            {!isAuthenticated && (
+              <div className="p-4 bg-yellow-50 border border-yellow-200 text-yellow-800 rounded-md text-center">
+                You must be logged in to submit this form. <Link href="/login" className="underline font-semibold">Login</Link>
+              </div>
+            )}
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">

@@ -7,25 +7,21 @@ export default function TestimonialsSection() {
     {
       name: 'Rajesh Sharma',
       role: 'Homeowner',
-      image: 'https://PentAarch.ai/api/search-image?query=Professional%20Indian%20businessman%20portrait%20in%20business%20attire%2C%20confident%20smile%2C%20corporate%20headshot%20style%2C%20clean%20background%2C%20professional%20lighting%20for%20client%20testimonial&width=100&height=100&seq=test1&orientation=squarish',
       text: 'PentaArch transformed our home beautifully. The interior design exceeded our expectations and the team was very professional throughout the project.'
     },
     {
       name: 'Priya Patel',
       role: 'Office Manager',
-      image: 'https://PentAarch.ai/api/search-image?query=Professional%20Indian%20businesswoman%20portrait%20in%20business%20attire%2C%20confident%20expression%2C%20corporate%20headshot%20style%2C%20clean%20background%2C%20professional%20lighting%20for%20client%20testimonial&width=100&height=100&seq=test2&orientation=squarish',
       text: 'The metallic epoxy flooring in our office looks stunning! The team delivered on time and the quality is exceptional. Highly recommended!'
     },
     {
       name: 'Amit Kumar',
       role: 'Restaurant Owner',
-      image: 'https://PentAarch.ai/api/search-image?query=Professional%20Indian%20businessman%20portrait%20in%20business%20attire%2C%20friendly%20smile%2C%20corporate%20headshot%20style%2C%20clean%20background%2C%20professional%20lighting%20for%20client%20testimonial&width=100&height=100&seq=test3&orientation=squarish',
       text: 'The decorative wall painting in our restaurant created the perfect ambiance. PentaArch understood our vision and executed it perfectly.'
     },
     {
       name: 'Sunita Verma',
       role: 'Homeowner',
-      image: 'https://PentAarch.ai/api/search-image?query=Professional%20Indian%20businesswoman%20portrait%20in%20business%20attire%2C%20warm%20smile%2C%20corporate%20headshot%20style%2C%20clean%20background%2C%20professional%20lighting%20for%20client%20testimonial&width=100&height=100&seq=test4&orientation=squarish',
       text: 'The Vastu consultation helped us create a harmonious living space. The team integrated traditional principles with modern design beautifully.'
     }
   ];
@@ -85,7 +81,7 @@ export default function TestimonialsSection() {
           <div className="overflow-hidden">
             {/* Tailwind can't do dynamic translateX, so we use style for the slide effect */}
             <div
-              className="transition-transform duration-700 ease-in-out flex"
+              className="transition-transform duration-1000 ease-in-out flex"
               style={{ transform: `translateX(-${current * 100}%)` }}
             >
               {testimonials.map((testimonial, index) => (
@@ -95,11 +91,6 @@ export default function TestimonialsSection() {
                 >
                   <div className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center">
                     <div className="flex items-center mb-4">
-                      <img
-                        src={testimonial.image}
-                        alt={testimonial.name}
-                        className="w-16 h-16 rounded-full object-cover mr-4 border-2 border-blue-200"
-                      />
                       <div>
                         <h4 className="font-semibold text-gray-800">{testimonial.name}</h4>
                         <p className="text-sm text-gray-600">{testimonial.role}</p>

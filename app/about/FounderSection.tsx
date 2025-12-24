@@ -3,17 +3,17 @@
 export default function FounderSection() {
   const founders = [
     {
-      name: 'Arjun Patel',
+      name: 'Hrishikesh Pokharkar',
       role: 'Founder & Chief Architect',
-      image: 'https://PentAarch.ai/api/search-image?query=Professional%20Indian%20architect%20in%20business%20attire%2C%20confident%20pose%2C%20modern%20office%20background%2C%20architectural%20blueprints%20visible%2C%20professional%20headshot%20style%20with%20warm%20lighting%20and%20contemporary%20setting&width=300&height=400&seq=founder1&orientation=portrait',
+      image: '"C:\\Users\\shail\\Desktop\\Pentaarch-Copy\\Hrishikesh_pokharkar.jpg"',
       bio: 'With over 15 years of experience in architecture and interior design, Arjun founded PentaArch with a vision to create spaces that inspire and transform lives. He holds a Master\'s degree in Architecture and is passionate about sustainable design practices.',
       expertise: ['Architectural Design', 'Project Management', 'Sustainable Building']
     },
     {
-      name: 'Kavita Sharma',
+      name: 'Girish Kakad',
       role: 'Co-Founder & Interior Design Director',
-      image: 'https://PentAarch.ai/api/search-image?query=Professional%20Indian%20interior%20designer%20woman%20in%20business%20attire%2C%20confident%20expression%2C%20modern%20design%20studio%20background%2C%20interior%20design%20elements%20visible%2C%20professional%20headshot%20style%20with%20natural%20lighting&width=300&height=400&seq=founder2&orientation=portrait',
-      bio: 'Kavita brings creativity and precision to every project. With a background in Fine Arts and Interior Design, she specializes in creating functional yet beautiful spaces. Her attention to detail and innovative approach has earned recognition in the industry.',
+      image: '"C:\\Users\\shail\\Desktop\\Pentaarch-Copy\\Girish_kakad.jpg"',
+      bio: 'Girish brings creativity and precision to every project. With a background in Fine Arts and Interior Design, she specializes in creating functional yet beautiful spaces. Her attention to detail and innovative approach has earned recognition in the industry.',
       expertise: ['Interior Design', 'Color Theory', 'Space Planning']
     }
   ];

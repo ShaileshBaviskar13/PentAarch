@@ -49,7 +49,8 @@ export default function HeroSection() {
       />
       <div className="container mx-auto px-4 text-center text-white relative z-20">
         <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight fade-in-scale" style={{fontFamily: 'Quicksand, Raleway,Nunito Sans, sens-serif ', color: '#faf8f8ff', animationDelay: '0.1s'}}>
-          Transform Your Space with <span className="masked-text">PentaArch</span>
+           <span className="masked-text">Precision</span> in Design. <br/>
+           <span className="masked-text">Perfection</span> in Execution.
         </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto fade-in-scale" style={{animationDelay: '0.2s', color: '#ffffffcc'}}>
           Expert interior design, construction, and architectural solutions for homes and offices

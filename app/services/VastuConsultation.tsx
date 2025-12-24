@@ -42,7 +42,7 @@ export default function VastuConsultation() {
             <div 
               className="h-96 bg-cover bg-center rounded-lg"
               style={{
-                backgroundImage: `url('https://PentAarch.ai/api/search-image?query=Vastu%20consultation%20session%20with%20traditional%20Indian%20architectural%20principles%2C%20compass%20directions%2C%20energy%20flow%20diagrams%2C%20and%20modern%20home%20design%20integration&width=600&height=400&seq=vastu1&orientation=landscape')`
+                backgroundImage: `url('https://i.pinimg.com/736x/7b/f4/1c/7bf41c9af6fc88f17586b511a014d198.jpg')`
               }}
             ></div>
           </div>
@@ -50,9 +50,11 @@ export default function VastuConsultation() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="service-animated-card">
               <div className="service-slide service-slide1">
-                <div className="service-img-full" style={{ background: '#fbeee6', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <i className="ri-compass-line" style={{ fontSize: '48px', color: '#e67e22' }}></i>
-                </div>
+                <img
+                  src="https://i.pinimg.com/736x/78/21/bf/7821bfe8b908d562c927ff280d48d7e9.jpg"
+                  alt="Energy Balancing"
+                  className="service-img-full object-cover"
+                />
               </div>
               <div className="service-slide service-slide2">
                 <div className="service-content">
@@ -63,9 +65,11 @@ export default function VastuConsultation() {
             </div>
             <div className="service-animated-card">
               <div className="service-slide service-slide1">
-                <div className="service-img-full" style={{ background: '#fbeee6', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <i className="ri-direction-line" style={{ fontSize: '48px', color: '#e67e22' }}></i>
-                </div>
+                <img
+                  src="https://i.pinimg.com/736x/7b/f4/1c/7bf41c9af6fc88f17586b511a014d198.jpg"
+                  alt="Directional Design"
+                  className="service-img-full object-cover"
+                />
               </div>
               <div className="service-slide service-slide2">
                 <div className="service-content">
@@ -76,9 +80,11 @@ export default function VastuConsultation() {
             </div>
             <div className="service-animated-card">
               <div className="service-slide service-slide1">
-                <div className="service-img-full" style={{ background: '#fbeee6', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <i className="ri-building-line" style={{ fontSize: '48px', color: '#e67e22' }}></i>
-                </div>
+                <img
+                  src="https://i.pinimg.com/736x/07/1d/6c/071d6c64f831c379655781ad31a8ffc4.jpg"
+                  alt="Seamless Integration"
+                  className="service-img-full object-cover"
+                />
               </div>
               <div className="service-slide service-slide2">
                 <div className="service-content">

@@ -5,7 +5,7 @@ export default function PortfolioHero() {
     <section 
       className="relative h-96 flex items-center justify-center bg-cover bg-center"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://PentAarch.ai/api/search-image?query=Professional%20portfolio%20showcase%20with%20multiple%20interior%20design%20projects%2C%20architectural%20drawings%2C%20finished%20spaces%2C%20and%20design%20portfolio%20presentation%20in%20elegant%20gallery%20setting&width=1200&height=600&seq=portfolio1&orientation=landscape')`
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/736x/af/9f/e2/af9fe28d68ebe728166354f9b1543c39.jpg')`
       }}
     >
       <div className="container mx-auto px-4 text-center text-white">

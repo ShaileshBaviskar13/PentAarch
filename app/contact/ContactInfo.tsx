@@ -1,4 +1,6 @@
-'use client';
+"use client";
+
+import { RiPhoneLine, RiMailLine, RiWhatsappLine, RiTimeLine } from 'react-icons/ri';
 
 export default function ContactInfo() {
   return (
@@ -11,7 +13,7 @@ export default function ContactInfo() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-                  <i className="ri-phone-line text-blue-600 text-xl"></i>
+                  <RiPhoneLine className="text-blue-600 text-xl" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold">Phone Numbers</h3>
@@ -31,7 +33,7 @@ export default function ContactInfo() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-                  <i className="ri-mail-line text-blue-600 text-xl"></i>
+                  <RiMailLine className="text-blue-600 text-xl" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold">Email Address</h3>
@@ -46,7 +48,7 @@ export default function ContactInfo() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
-                  <i className="ri-whatsapp-line text-green-600 text-xl"></i>
+                  <RiWhatsappLine className="text-green-600 text-xl" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold">WhatsApp</h3>
@@ -66,7 +68,7 @@ export default function ContactInfo() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-                  <i className="ri-time-line text-blue-600 text-xl"></i>
+                  <RiTimeLine className="text-blue-600 text-xl" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold">Business Hours</h3>

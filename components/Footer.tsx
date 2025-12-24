@@ -1,6 +1,7 @@
-'use client';
+"use client";
 
 import Link from 'next/link';
+import { RiFacebookFill, RiInstagramFill, RiYoutubeFill, RiMailLine, RiPhoneLine, RiWhatsappLine } from 'react-icons/ri';
 
 export default function Footer() {
   return (
@@ -19,13 +20,13 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center social-glow facebook transition-colors cursor-pointer" title="Facebook" aria-label="Facebook">
-                <i className="ri-facebook-fill text-white"></i>
+                <RiFacebookFill className="text-white" />
               </a>
               <a href="#" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center social-glow instagram transition-colors cursor-pointer" title="Instagram" aria-label="Instagram">
-                <i className="ri-instagram-fill text-white"></i>
+                <RiInstagramFill className="text-white" />
               </a>
               <a href="#" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center social-glow youtube transition-colors cursor-pointer" title="YouTube" aria-label="YouTube">
-                <i className="ri-youtube-fill text-white"></i>
+                <RiYoutubeFill className="text-white" />
               </a>
             </div>
           </div>
@@ -56,19 +57,19 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
             <div className="space-y-2 text-gray-400">
               <p className="flex items-center">
-                <i className="ri-mail-line mr-2"></i>
+                <RiMailLine className="mr-2" />
                 contact@pentaarch.com
               </p>
               <p className="flex items-center">
-                <i className="ri-phone-line mr-2"></i>
+                <RiPhoneLine className="mr-2" />
                 9139979899
               </p>
               <p className="flex items-center">
-                <i className="ri-phone-line mr-2"></i>
+                <RiPhoneLine className="mr-2" />
                 7219326600
               </p>
               <a href="https://wa.me/919139979899" className="flex items-center text-green-400 hover:text-green-300 transition-colors cursor-pointer">
-                <i className="ri-whatsapp-line mr-2"></i>
+                <RiWhatsappLine className="mr-2" />
                 WhatsApp
               </a>
             </div>

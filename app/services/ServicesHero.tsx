@@ -5,7 +5,7 @@ export default function ServicesHero() {
     <section 
       className="relative h-96 flex items-center justify-center bg-cover bg-center"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://PentAarch.ai/api/search-image?query=Professional%20construction%20and%20interior%20design%20services%20showcase%20with%20various%20tools%2C%20materials%2C%20paint%20samples%2C%20flooring%20options%2C%20and%20architectural%20elements%20displayed%20in%20organized%20workshop%20setting&width=1200&height=600&seq=services1&orientation=landscape')`
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/736x/45/54/fb/4554fbfdb36baa36c9c704ae150a009b.jpg')`
       }}
     >
       <div className="container mx-auto px-4 text-center text-white">

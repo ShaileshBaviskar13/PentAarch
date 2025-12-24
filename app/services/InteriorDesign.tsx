@@ -7,22 +7,22 @@ export default function InteriorDesign() {
     {
       title: 'Modular Kitchens',
       description: 'Custom-designed modular kitchen solutions with premium finishes and smart storage',
-      image: 'https://PentAarch.ai/api/search-image?query=Modern%20modular%20kitchen%20design%20with%20sleek%20cabinets%2C%20granite%20countertops%2C%20premium%20appliances%2C%20smart%20storage%20solutions%2C%20and%20contemporary%20lighting%20in%20elegant%20home%20interior&width=400&height=300&seq=kitchen1&orientation=landscape'
+      image: 'https://i.pinimg.com/1200x/5e/c8/4e/5ec84e9403478fee24065dc348f0d197.jpg'
     },
     {
       title: 'Furniture Layouts',
       description: 'Space-optimized furniture arrangements for maximum functionality and aesthetics',
-      image: 'https://PentAarch.ai/api/search-image?query=Professional%20furniture%20layout%20design%20in%20modern%20living%20room%20with%20contemporary%20seating%2C%20coffee%20table%2C%20storage%20units%2C%20and%20optimal%20space%20utilization%20in%20stylish%20home%20interior&width=400&height=300&seq=furniture1&orientation=landscape'
+      image: 'https://i.pinimg.com/736x/27/dc/7f/27dc7fdf3fd3efab20703655dc395fca.jpg'
     },
     {
       title: 'Ceiling & Lighting',
       description: 'Innovative ceiling designs with strategic lighting solutions for ambiance',
-      image: 'https://PentAarch.ai/api/search-image?query=Elegant%20ceiling%20design%20with%20modern%20lighting%20fixtures%2C%20recessed%20lights%2C%20pendant%20lamps%2C%20and%20sophisticated%20illumination%20in%20contemporary%20interior%20space&width=400&height=300&seq=lighting1&orientation=landscape'
+      image: 'https://i.pinimg.com/736x/8b/35/49/8b354963a074593888b0c77aa0376ed3.jpg'
     },
     {
       title: 'Turnkey Interiors',
       description: 'Complete interior solutions from concept to completion with end-to-end service',
-      image: 'https://PentAarch.ai/api/search-image?query=Complete%20turnkey%20interior%20design%20project%20showing%20finished%20living%20space%20with%20furniture%2C%20decor%2C%20lighting%2C%20and%20all%20design%20elements%20perfectly%20coordinated%20in%20luxury%20home%20setting&width=400&height=300&seq=turnkey1&orientation=landscape'
+      image: 'https://i.pinimg.com/1200x/c8/79/ba/c879ba8c9772160014b0c740c85c8933.jpg'
     }
   ];
 
@@ -65,7 +65,7 @@ export default function InteriorDesign() {
             <div 
               className="h-96 bg-cover bg-center rounded-lg"
               style={{
-                backgroundImage: `url('https://PentAarch.ai/api/search-image?query=Luxury%20interior%20design%20showcase%20with%20elegant%20furniture%2C%20sophisticated%20decor%2C%20premium%20materials%2C%20and%20professional%20interior%20design%20elements%20in%20modern%20home%20setting&width=600&height=400&seq=interior1&orientation=landscape')`
+                backgroundImage: `url('https://i.pinimg.com/1200x/29/01/48/290148fea19fd1b999cd29fbe0409e39.jpg')`
               }}
             ></div>
           </div>

@@ -1,23 +1,24 @@
 'use client';
 
 import Link from 'next/link';
+import { RiCheckLine, RiTimerLine, RiDropLine, RiBrushLine, RiPaletteLine } from 'react-icons/ri';
 
 export default function MetallicEpoxy() {
   const flooringTypes = [
     {
       title: '3D Flooring Effects',
       description: 'Stunning three-dimensional patterns that create optical illusions',
-      image: 'https://PentAarch.ai/api/search-image?query=Amazing%203D%20epoxy%20flooring%20with%20three-dimensional%20optical%20illusion%20patterns%2C%20stunning%20visual%20effects%2C%20and%20artistic%20floor%20design%20in%20modern%20interior%20space&width=300&height=200&seq=3d1&orientation=landscape'
+      image: 'https://i.pinimg.com/736x/ff/84/67/ff8467f8b582acb9b2276653baebdac4.jpg'
     },
     {
       title: 'Marble-like Finishes',
       description: 'Elegant marble appearance with the durability of epoxy',
-      image: 'https://PentAarch.ai/api/search-image?query=Luxurious%20marble-like%20epoxy%20flooring%20with%20elegant%20stone%20appearance%2C%20sophisticated%20marble%20patterns%2C%20and%20premium%20floor%20finish%20in%20upscale%20interior&width=300&height=200&seq=marble1&orientation=landscape'
+      image: 'https://i.pinimg.com/736x/f9/88/7b/f9887b8bbfc92f093d57245a11cda555.jpg'
     },
     {
       title: 'Seamless Metallic Effects',
       description: 'Continuous metallic surfaces with no joints or seams',
-      image: 'https://PentAarch.ai/api/search-image?query=Seamless%20metallic%20epoxy%20flooring%20with%20continuous%20metallic%20surface%2C%20no%20joints%2C%20glossy%20finish%2C%20and%20contemporary%20industrial%20aesthetic%20in%20modern%20space&width=300&height=200&seq=metallic1&orientation=landscape'
+      image: 'https://i.pinimg.com/1200x/08/49/a4/0849a427e01bada2442e6da80adceac9.jpg'
     }
   ];
 
@@ -56,19 +57,18 @@ export default function MetallicEpoxy() {
                 Enquire Now
               </Link>
             </div>
-            <div 
-              className="h-96 bg-cover bg-center rounded-lg"
-              style={{
-                backgroundImage: `url('https://PentAarch.ai/api/search-image?query=Professional%20metallic%20epoxy%20flooring%20installation%20process%20with%20skilled%20technician%20applying%20metallic%20epoxy%20coating%2C%20specialized%20tools%2C%20and%20modern%20flooring%20equipment&width=600&height=400&seq=epoxy1&orientation=landscape')`
-              }}
-            ></div>
+              <img
+                src="https://i.pinimg.com/1200x/85/a8/87/85a887e62e793eaad82c4a9b84d98b0e.jpg"
+                alt="Metallic epoxy installation"
+                className="w-full h-96 object-cover rounded-lg"
+              />
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
             {flooringTypes.map((flooring, index) => (
               <div key={index} className="service-animated-card">
                 <div className="service-slide service-slide1">
-                  <div className="service-img-full" style={{ backgroundImage: `url(${flooring.image})` }}></div>
+                  <img src={flooring.image} alt={flooring.title} className="service-img-full object-cover" />
                 </div>
                 <div className="service-slide service-slide2">
                   <div className="service-content">
@@ -85,28 +85,28 @@ export default function MetallicEpoxy() {
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="text-center">
                 <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <i className="ri-timer-line text-white text-xl"></i>
+                  <RiTimerLine className="text-white text-xl" />
                 </div>
                 <h4 className="font-semibold mb-2">Long-lasting</h4>
                 <p className="text-sm text-gray-600">20+ years durability</p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <i className="ri-drop-line text-white text-xl"></i>
+                  <RiDropLine className="text-white text-xl" />
                 </div>
                 <h4 className="font-semibold mb-2">Waterproof</h4>
                 <p className="text-sm text-gray-600">Complete moisture protection</p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <i className="ri-brush-line text-white text-xl"></i>
+                  <RiBrushLine className="text-white text-xl" />
                 </div>
                 <h4 className="font-semibold mb-2">Easy Clean</h4>
                 <p className="text-sm text-gray-600">Simple maintenance</p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <i className="ri-palette-line text-white text-xl"></i>
+                  <RiPaletteLine className="text-white text-xl" />
                 </div>
                 <h4 className="font-semibold mb-2">Customizable</h4>
                 <p className="text-sm text-gray-600">Unlimited designs</p>

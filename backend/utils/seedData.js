@@ -70,7 +70,7 @@ const seedServices = async () => {
         ],
         images: [
           {
-            url: 'https://readdy.ai/api/search-image?query=Luxury%20interior%20design%20showcase%20with%20elegant%20furniture%2C%20sophisticated%20decor%2C%20premium%20materials%2C%20and%20professional%20interior%20design%20elements%20in%20modern%20home%20setting&width=600&height=400&seq=interior1&orientation=landscape',
+            url: 'https://Pentaarch.ai/api/search-image?query=Luxury%20interior%20design%20showcase%20with%20elegant%20furniture%2C%20sophisticated%20decor%2C%20premium%20materials%2C%20and%20professional%20interior%20design%20elements%20in%20modern%20home%20setting&width=600&height=400&seq=interior1&orientation=landscape',
             alt: 'Interior Design Showcase',
             isPrimary: true
           }
@@ -120,7 +120,7 @@ const seedServices = async () => {
         ],
         images: [
           {
-            url: 'https://readdy.ai/api/search-image?query=Professional%20wall%20painting%20artist%20applying%20decorative%20finish%20with%20specialized%20tools%2C%20artistic%20wall%20texture%20creation%2C%20and%20skilled%20craftsman%20working%20on%20premium%20wall%20treatment&width=600&height=400&seq=painting1&orientation=landscape',
+            url: 'https://Pentaarch.ai/api/search-image?query=Professional%20wall%20painting%20artist%20applying%20decorative%20finish%20with%20specialized%20tools%2C%20artistic%20wall%20texture%20creation%2C%20and%20skilled%20craftsman%20working%20on%20premium%20wall%20treatment&width=600&height=400&seq=painting1&orientation=landscape',
             alt: 'Decorative Wall Painting',
             isPrimary: true
           }
@@ -170,7 +170,7 @@ const seedServices = async () => {
         ],
         images: [
           {
-            url: 'https://readdy.ai/api/search-image?query=Professional%20metallic%20epoxy%20flooring%20installation%20process%20with%20skilled%20technician%20applying%20metallic%20epoxy%20coating%2C%20specialized%20tools%2C%20and%20modern%20flooring%20equipment&width=600&height=400&seq=epoxy1&orientation=landscape',
+            url: 'https://Pentaarch.ai/api/search-image?query=Professional%20metallic%20epoxy%20flooring%20installation%20process%20with%20skilled%20technician%20applying%20metallic%20epoxy%20coating%2C%20specialized%20tools%2C%20and%20modern%20flooring%20equipment&width=600&height=400&seq=epoxy1&orientation=landscape',
             alt: 'Metallic Epoxy Flooring',
             isPrimary: true
           }
@@ -220,7 +220,7 @@ const seedServices = async () => {
         ],
         images: [
           {
-            url: 'https://readdy.ai/api/search-image?query=Professional%20civil%20construction%20site%20with%20skilled%20workers%2C%20construction%20equipment%2C%20building%20materials%2C%20and%20ongoing%20construction%20work%20in%20progress&width=600&height=400&seq=construction1&orientation=landscape',
+            url: 'https://Pentaarch.ai/api/search-image?query=Professional%20civil%20construction%20site%20with%20skilled%20workers%2C%20construction%20equipment%2C%20building%20materials%2C%20and%20ongoing%20construction%20work%20in%20progress&width=600&height=400&seq=construction1&orientation=landscape',
             alt: 'Civil Contracting Work',
             isPrimary: true
           }
@@ -270,7 +270,7 @@ const seedServices = async () => {
         ],
         images: [
           {
-            url: 'https://readdy.ai/api/search-image?query=Professional%20Vastu%20consultant%20analyzing%20architectural%20plans%20and%20providing%20guidance%20on%20space%20planning%2C%20energy%20flow%2C%20and%20harmonious%20living%20design&width=600&height=400&seq=vastu1&orientation=landscape',
+            url: 'https://Pentaarch.ai/api/search-image?query=Professional%20Vastu%20consultant%20analyzing%20architectural%20plans%20and%20providing%20guidance%20on%20space%20planning%2C%20energy%20flow%2C%20and%20harmonious%20living%20design&width=600&height=400&seq=vastu1&orientation=landscape',
             alt: 'Vastu Consultation',
             isPrimary: true
           }
