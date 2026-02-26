@@ -23,6 +23,7 @@ export interface APIUtils {
   getStoredToken(): string | null;
   setStoredToken(token: string): void;
   clearStoredToken(): void;
+  removeAuthToken(): void;
 }
 
 export const contactAPI: ContactAPI;

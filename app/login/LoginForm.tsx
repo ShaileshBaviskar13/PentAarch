@@ -57,8 +57,10 @@ export default function LoginForm() {
         router.push('/');
       }
       
-    } catch (err) {
-      setError(err.message || 'Login failed. Please try again.');
+    } catch (err: unknown) {
+      const message =
+        err instanceof Error ? err.message : 'Login failed. Please try again.';
+      setError(message);
     } finally {
       setIsLoading(false);
     }

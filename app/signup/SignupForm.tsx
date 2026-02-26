@@ -78,8 +78,10 @@ export default function SignupForm() {
         router.push('/login?message=Account created successfully! Please sign in.');
       }
       
-    } catch (err) {
-      setError(err.message || 'Registration failed. Please try again.');
+    } catch (err: unknown) {
+      const message =
+        err instanceof Error ? err.message : 'Registration failed. Please try again.';
+      setError(message);
     } finally {
       setIsLoading(false);
     }
