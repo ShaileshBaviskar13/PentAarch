@@ -60,7 +60,7 @@ export default function ContactForm() {
       // Call the backend API
       const response = await contactAPI.submitContact(contactData);
 
-      if (response.success) {
+      if ((response as any)?.success) {
         setSubmitStatus('Thank you! Your message has been sent successfully.');
         setFormData({
           name: '',
