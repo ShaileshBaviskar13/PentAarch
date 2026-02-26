@@ -16,6 +16,11 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm run export
+      - name: Move static export to out folder
+        run: |
+          rm -rf out || true
+          mkdir out
+          cp -r .next/export/* out/
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
