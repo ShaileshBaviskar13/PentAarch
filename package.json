@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development next dev -H 0.0.0.0 -p 3000",
     "build": "node node_modules/next/dist/bin/next build",
-    "prebuild": "chmod +x ./node_modules/next/dist/bin/next || true",
+    "prebuild": "node -e \"try{require('fs').chmodSync('node_modules/next/dist/bin/next',0o755);}catch(e){}\"",
     "export": "next export",
     "lint": "next lint"
   },
