@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=development next dev -H 0.0.0.0 -p 3000",
-    "build": "cross-env NEXT_DISABLE_SWC=1 NODE_OPTIONS=--max-old-space-size=8192 node node_modules/next/dist/bin/next build",
+    "dev": "next dev -H 0.0.0.0 -p 3000",
+    "build": "NODE_OPTIONS=--max-old-space-size=8192 node node_modules/next/dist/bin/next build",
     "prebuild": "node -e \"try{require('fs').chmodSync('node_modules/next/dist/bin/next',0o755);}catch(e){}\"",
     "export": "next export",
     "lint": "next lint"
