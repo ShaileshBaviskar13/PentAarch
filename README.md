@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Deployment Options
+
+You can host this static-exported site either with **Vercel** (zero configuration) or **GitHub Pages**. A workflow is included at `.github/workflows/gh-pages.yml` that builds and pushes the output to a `gh-pages` branch.
+
+- **Vercel**: Connect the GitHub repo and Vercel will build on every push. Works with dynamic features and server components.
+- **GitHub Pages**: Only supports fully static output. Run `npm run build && npm run export` locally or rely on the provided GitHub Actions workflow. Configure Pages source to `gh-pages` branch.
+
+
 ## Getting Started
 
 First, run the development server:
