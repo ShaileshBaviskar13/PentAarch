@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import { authAPI } from '../../lib/api';
 
 export default function LoginForm() {
@@ -13,14 +13,18 @@ export default function LoginForm() {
   const [error, setError] = useState('');
   const [successMessage, setSuccessMessage] = useState('');
   const router = useRouter();
-  const searchParams = useSearchParams();
 
   useEffect(() => {
-    const message = searchParams.get('message');
-    if (message) {
-      setSuccessMessage(message);
+    // parse the "message" query parameter on client side without using
+    // Next.js navigation hooks, avoiding CSR-only hook errors during export
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const message = params.get('message');
+      if (message) {
+        setSuccessMessage(message);
+      }
     }
-  }, [searchParams]);
+  }, []);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
