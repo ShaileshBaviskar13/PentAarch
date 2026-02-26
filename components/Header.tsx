@@ -1,6 +1,6 @@
 'use client';
-
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { apiUtils, authAPI } from '../lib/api';
@@ -26,8 +26,13 @@ export default function Header() {
     if (apiUtils.isAuthenticated()) {
       authAPI.getProfile().then(res => {
         if (res && res.data) setUser(res.data.user || res.data);
-      }).catch(() => {
-        // ignore
+      }).catch((err) => {
+        // token may be invalid/expired – clear it so we don't keep
+        // sending unauthorized requests and send user to login page.
+        console.warn('Profile fetch failed, clearing auth state', err);
+        apiUtils.removeAuthToken();
+        setUser(null);
+        router.push('/login');
       });
     }
   }, []);
@@ -42,10 +47,14 @@ export default function Header() {
 
   return (
     <header className={`bg-white shadow-sm sticky top-0 z-50 transition-all duration-300${scrolled ? ' navbar-shrink' : ''}`}>
-      <div className={`container mx-auto px-4 transition-all duration-300${scrolled ? ' py-2' : ' py-4'}`}>
+      <div className={`container mx-auto px-4 transition-all duration-300${scrolled ? ' py-1' : ' py-2'}`}>
         <div className="flex items-center justify-between">
-          <Link href="/" className="text-2xl font-bold text-blue-600" style={{ fontFamily: 'serif' }}>
-            PentaArch
+          {/* Logo */}
+          <Link href="/" className="flex items-center gap-3 cursor-pointer">
+            <div className="h-8 overflow-visible flex items-center">
+              <Image src="/Image/Pentaarch_logo.png" alt="Pentaarch logo" width={200} height={56} className="object-contain -translate-y-1" />
+            </div>
+            <span className="sr-only">PentaARCH</span>
           </Link>
           
           {/* Desktop Navigation */}

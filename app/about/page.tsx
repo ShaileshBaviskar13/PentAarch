@@ -6,7 +6,6 @@ import AboutHero from './AboutHero';
 import CompanyBackground from './CompanyBackground';
 import FounderSection from './FounderSection';
 import VisionMission from './VisionMission';
-import TrustedBy from './TrustedBy';
 
 export default function AboutPage() {
   return (
@@ -17,7 +16,6 @@ export default function AboutPage() {
         <CompanyBackground />
         <FounderSection />
         <VisionMission />
-        <TrustedBy />
       </main>
       <Footer />
     </div>
