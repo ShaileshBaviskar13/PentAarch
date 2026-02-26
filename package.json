@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development next dev -H 0.0.0.0 -p 3000",
-    // build using Node to avoid executable permission issues on some hosts
     "build": "node node_modules/next/dist/bin/next build",
     "prebuild": "chmod +x ./node_modules/next/dist/bin/next || true",
     "export": "next export",
