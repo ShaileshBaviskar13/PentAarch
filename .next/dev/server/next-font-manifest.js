@@ -1,1 +1,0 @@
-self.__NEXT_FONT_MANIFEST="{\n  \"app\": {\n    \"[project]/Desktop/Pent_Aarch/app/page\": [\n      \"static/media/a624dffa201843ff-s.p.91936907.woff2\",\n      \"static/media/caa3a2e1cccd8315-s.p.853070df.woff2\",\n      \"static/media/797e433ab948586e-s.p.dbea232f.woff2\"\n    ]\n  },\n  \"appUsingSizeAdjust\": true,\n  \"pages\": {},\n  \"pagesUsingSizeAdjust\": false\n}"
