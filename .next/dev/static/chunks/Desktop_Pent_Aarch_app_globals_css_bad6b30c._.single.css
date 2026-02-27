@@ -1194,10 +1194,6 @@ img, video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-white\/60 {
-  background-color: #fff9;
-}
-
 .bg-white\/80 {
   background-color: #fffc;
 }
@@ -1592,12 +1588,6 @@ img, video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-sm {
-  --tw-shadow: 0 1px 2px 0 #0000000d;
-  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .shadow-xl {
   --tw-shadow: 0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a;
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
@@ -1606,18 +1596,6 @@ img, video {
 
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.backdrop-blur-lg {
-  --tw-backdrop-blur: blur(16px);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-}
-
-.backdrop-blur-md {
-  --tw-backdrop-blur: blur(12px);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
 .transition-all {
@@ -1753,6 +1731,50 @@ img, video {
   font-weight: bold;
   animation: 5s linear infinite alternate animate-background;
   display: inline-block;
+}
+
+.wet-paint-text {
+  text-shadow: 0 0 6px #0f172a66, 0 4px 10px #0f172a8c, 0 -2px 6px #ffffffb3;
+  animation: 3.2s ease-in-out infinite wetPaintWave;
+  position: relative;
+}
+
+.wet-paint-text:before {
+  content: "";
+  mix-blend-mode: screen;
+  opacity: 0;
+  pointer-events: none;
+  background: radial-gradient(circle at 10% 0, #ffffffd9, #0000 55%), radial-gradient(circle at 90% 0, #fffc, #0000 58%);
+  animation: 3.2s ease-in-out infinite wetPaintShine;
+  position: absolute;
+  inset: -6%;
+}
+
+@keyframes wetPaintWave {
+  0%, 100% {
+    transform: translateY(0)skewX(0);
+  }
+
+  50% {
+    transform: translateY(-1.5px)skewX(-1.5deg);
+  }
+}
+
+@keyframes wetPaintShine {
+  0% {
+    opacity: 0;
+    transform: translateX(-12%);
+  }
+
+  50% {
+    opacity: .9;
+    transform: translateX(6%);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(18%);
+  }
 }
 
 @keyframes animate-background {
