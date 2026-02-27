@@ -1,0 +1,99 @@
+[00:00:01.620] Server  LOG     ✓ Ready in 1225ms
+[00:00:11.016] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:11.679] Browser WARN    Image with src "http://localhost:3000/Image/Pentaarch_logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:06.002] Server  LOG     ✓ Compiled in 855ms
+[00:05:07.764] Server  LOG     ✓ Compiled in 99ms
+[00:10:09.561] Server  LOG     ✓ Compiled in 72ms
+[00:10:10.041] Browser ERROR   ./Desktop/Pent_Aarch/app/TestimonialsSection.tsx:27:5
+Parsing ecmascript source code failed
+  25 |       text: 'Our factory’s interiors and office were renovated efficiently. Team coordination was excellent.'
+  26 |     }
+> 27 |     {
+     |     ^
+  28 |       name: 'Mrs. Rucha Bhosale, Mumbai',
+  29 |       role: 'Homeowner',
+  30 |       text: 'Professional, timely, and creative – Highly satisfied with our office renovation.'
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Pent_Aarch/app/TestimonialsSection.tsx [Client Component Browser]
+    ./Desktop/Pent_Aarch/app/page.tsx [Client Component Browser]
+    ./Desktop/Pent_Aarch/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Pent_Aarch/app/TestimonialsSection.tsx [Client Component SSR]
+    ./Desktop/Pent_Aarch/app/page.tsx [Client Component SSR]
+    ./Desktop/Pent_Aarch/app/page.tsx [Server Component]
+[00:11:49.898] Server  LOG     ✓ Compiled in 68ms
+[00:11:52.170] Server  LOG     ✓ Compiled in 51ms
+[00:12:10.542] Server  LOG     ✓ Compiled in 80ms
+[00:12:11.545] Server  LOG     ✓ Compiled in 51ms
+[00:12:12.041] Browser ERROR   ./Desktop/Pent_Aarch/app/TestimonialsSection.tsx:25:26
+Parsing ecmascript source code failed
+  23 |       name: 'Mr. Kunal Patil, Pune',
+  24 |       role: 'Homeowner',
+> 25 |       text: 'Our factory's interiors and office were renovated efficiently. Team coordination was excellent.'
+     |                          ^
+  26 |     }
+  27 |   ];
+  28 |
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Pent_Aarch/app/TestimonialsSection.tsx [Client Component Browser]
+    ./Desktop/Pent_Aarch/app/page.tsx [Client Component Browser]
+    ./Desktop/Pent_Aarch/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Pent_Aarch/app/TestimonialsSection.tsx [Client Component SSR]
+    ./Desktop/Pent_Aarch/app/page.tsx [Client Component SSR]
+    ./Desktop/Pent_Aarch/app/page.tsx [Server Component]
+[00:12:15.142] Server  LOG     ✓ Compiled in 58ms
+[00:12:16.032] Browser ERROR   ./Desktop/Pent_Aarch/app/TestimonialsSection.tsx:25:13
+Parsing ecmascript source code failed
+  23 |       name: 'Mr. Kunal Patil, Pune',
+  24 |       role: 'Homeowner',
+> 25 |       text: "Our factory's interiors and office were renovated efficiently. Team coordination was excellent.'
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  26 |     }
+  27 |   ];
+  28 |
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Pent_Aarch/app/TestimonialsSection.tsx [Client Component Browser]
+    ./Desktop/Pent_Aarch/app/page.tsx [Client Component Browser]
+    ./Desktop/Pent_Aarch/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Pent_Aarch/app/TestimonialsSection.tsx [Client Component SSR]
+    ./Desktop/Pent_Aarch/app/page.tsx [Client Component SSR]
+    ./Desktop/Pent_Aarch/app/page.tsx [Server Component]
+[00:12:24.040] Browser ERROR   ./Desktop/Pent_Aarch/app/TestimonialsSection.tsx:25:13
+Parsing ecmascript source code failed
+  23 |       name: 'Mr. Kunal Patil, Pune',
+  24 |       role: 'Homeowner',
+> 25 |       text: "Our factory's interiors and office were renovated efficiently. Team coordination was excellent.
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  26 |     }
+  27 |   ];
+  28 |
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Pent_Aarch/app/TestimonialsSection.tsx [Client Component Browser]
+    ./Desktop/Pent_Aarch/app/page.tsx [Client Component Browser]
+    ./Desktop/Pent_Aarch/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Pent_Aarch/app/TestimonialsSection.tsx [Client Component SSR]
+    ./Desktop/Pent_Aarch/app/page.tsx [Client Component SSR]
+    ./Desktop/Pent_Aarch/app/page.tsx [Server Component]
