@@ -7,14 +7,14 @@ export default function FounderSection(){
       name: 'Hrishikesh Pokharkar',
       role: 'Founder & Chief Architect',
       image: '/Image/Hrishikesh_pokharkar.jpg',
-      bio: 'With over 15 years of experience in architecture and interior design, Arjun founded PentaArch with a vision to create spaces that inspire and transform lives. He holds a Master\'s degree in Architecture and is passionate about sustainable design practices.',
+      bio: 'With a flair for luxury and a passion for perfection, Hrishikesh has transformed over 40 spaces with his signature touch. A self-made designer known for his creativity and attention to detail, he believes interiors should not only look great but also improve lifestyle and flow. His commitment to theme-based designs and functional luxury makes him a trendsetter in modern interiors.',
       expertise: ['Architectural Design', 'Project Management', 'Sustainable Building']
     },
     {
       name: 'Girish Kakad',
       role: 'Co-Founder & Interior Design Director',
       image: '/Image/Girish_kakad.jpg',
-      bio: 'Girish brings creativity and precision to every project. With a background in Fine Arts and Interior Design, she specializes in creating functional yet beautiful spaces. Her attention to detail and innovative approach has earned recognition in the industry.',
+      bio: "A civil engineer by profession and a Vastu expert by passion, Girish brings over 10 years of experience in delivering structurally sound and spiritually harmonious spaces. Known for balancing engineering with energy principles, his work ensures stability, flow, and peace in every project. Girish is the driving force behind the strong foundations of PentaArch's success.",
       expertise: ['Interior Design', 'Color Theory', 'Space Planning']
     }
   ];
