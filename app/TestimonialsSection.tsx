@@ -5,31 +5,31 @@ import React, { useState, useEffect, useRef } from 'react';
 export default function TestimonialsSection() {
   const testimonials = [
     {
-      name: 'Rajesh Sharma',
+      name: 'Mrs. Sonali Deshmukh, Nashik',
       role: 'Homeowner',
-      text: 'PentaArch transformed our home beautifully. The interior design exceeded our expectations and the team was very professional throughout the project.'
+      text: 'PentaArch turned my 2BHK flat into a modern haven. Everything from lights to furniture was perfectly planned.'
     },
     {
-      name: 'Priya Patel',
+      name: 'Mr. Ajay Kale, Sangamner',
       role: 'Office Manager',
-      text: 'The metallic epoxy flooring in our office looks stunning! The team delivered on time and the quality is exceptional. Highly recommended!'
+      text: 'Our farmhouse was designed keeping Vastu in mind. We could feel the positive change.'
     },
     {
-      name: 'Amit Kumar',
+      name: 'Mr. Naresh Jadhav, Pune',
       role: 'Restaurant Owner',
-      text: 'The decorative wall painting in our restaurant created the perfect ambiance. PentaArch understood our vision and executed it perfectly.'
+      text: 'Flawless waterproofing and brilliant wall textures. The finish looks five-star!'
     },
     {
-      name: 'Sunita Verma',
+      name: 'Mr. Kunal Patil, Pune',
       role: 'Homeowner',
-      text: 'The Vastu consultation helped us create a harmonious living space. The team integrated traditional principles with modern design beautifully.'
+      text: "Our factory's interiors and office were renovated efficiently. Team coordination was excellent."
     }
   ];
 
   // Slideshow state
   const [current, setCurrent] = useState(0);
   const [paused, setPaused] = useState(false);
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const timeoutRef = useRef<number | null>(null);
 
   useEffect(() => {
     if (timeoutRef.current) clearTimeout(timeoutRef.current);
