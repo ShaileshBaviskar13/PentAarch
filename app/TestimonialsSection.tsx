@@ -29,7 +29,7 @@ export default function TestimonialsSection() {
   // Slideshow state
   const [current, setCurrent] = useState(0);
   const [paused, setPaused] = useState(false);
-  const timeoutRef = useRef<number | null>(null);
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     if (timeoutRef.current) clearTimeout(timeoutRef.current);
