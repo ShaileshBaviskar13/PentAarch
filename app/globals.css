@@ -337,3 +337,20 @@
                  -3px -3px 6px rgba(255, 255, 255, 0.6);
     transform: scale(1.05);
 }
+
+/* Glassmorphism Navbar */
+.glass-nav {
+	backdrop-filter: blur(18px);
+	-webkit-backdrop-filter: blur(18px);
+	background: rgba(255, 255, 255, 0.22);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.55);
+	box-shadow: 0 10px 30px rgba(15, 23, 42, 0.22);
+}
+
+.glass-nav-scrolled {
+	backdrop-filter: blur(26px);
+	-webkit-backdrop-filter: blur(26px);
+	background: rgba(255, 255, 255, 0.9);
+	border-bottom: 1px solid rgba(148, 163, 184, 0.7);
+	box-shadow: 0 18px 45px rgba(15, 23, 42, 0.35);
+}
