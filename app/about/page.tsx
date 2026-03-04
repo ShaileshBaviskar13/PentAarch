@@ -5,7 +5,6 @@ import Footer from '@/components/Footer';
 import AboutHero from './AboutHero';
 import CompanyBackground from './CompanyBackground';
 import FounderSection from './FounderSection';
-import VisionMission from './VisionMission';
 
 export default function AboutPage() {
   return (
@@ -15,7 +14,6 @@ export default function AboutPage() {
         <AboutHero />
         <CompanyBackground />
         <FounderSection />
-        <VisionMission />
       </main>
       <Footer />
     </div>
